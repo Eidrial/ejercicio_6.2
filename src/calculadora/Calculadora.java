@@ -80,14 +80,14 @@ public class Calculadora {
     }
 
     //prueba
-//    public double divide(double n1, double n2) {
-//
-//        double divide = n1 / n2;
-//        System.out.println("La división de " + n1 + " entre " + n2 + " es "
-//                + (n1 / n2));
-//
-//        return divide;
-//    }
+    public double divide(double n1, double n2) {
+
+        double divide = n1 / n2;
+        System.out.println("La división de " + n1 + " entre " + n2 + " es "
+                + (n1 / n2));
+
+        return divide;
+    }
 
     public void datos() {
         System.out.println("La marca de la calculadora es: " + this.marca + ".\nEl modelo de la calculadora es: " + this.modelo + ".\nEl numero de serie "
