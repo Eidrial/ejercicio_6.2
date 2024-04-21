@@ -36,7 +36,6 @@ public class Calculadora {
 //        System.out.println("La suma de " + n1 + " más " + n2 + " es "
 //                + (n1 + n2));
 //    }
-
 // Sobrecarga del método suma por tipo de datos del argumento
     public void suma(int n1, int n2) {
         System.out.println("La suma de " + n1 + " más " + n2 + " es "
@@ -52,7 +51,6 @@ public class Calculadora {
 //
 //        return suma;
 //    }
-
 //// Sobrecarga del método suma por número de parámetros
 //    public void suma() {
 //        System.out.println("Introduce el primer número: ");
@@ -87,6 +85,14 @@ public class Calculadora {
                 + (n1 / n2));
 
         return divide;
+    }
+
+    public double divideModulo(double n1, double n2) {
+        double modulo = n1 % n2; //Calcula el módulo
+
+        System.out.println("El módulo de " + n1 + " entre " + n2 + " es " + modulo);
+
+        return modulo;
     }
 
     public void datos() {
